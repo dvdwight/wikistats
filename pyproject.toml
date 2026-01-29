@@ -1,0 +1,15 @@
+[project]
+name = "wikistats"
+version = "0.1.0"
+description = "Wikipedia streaming ingestion + DuckDB + dbt + dashboard"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-duckdb>=1.10.0",
+    "duckdb>=1.4.4",
+    "pyarrow>=23.0.0",
+    "requests>=2.32.5",
+    "streamlit>=1.53.1",
+]
+
+[tool.uv] package = true
