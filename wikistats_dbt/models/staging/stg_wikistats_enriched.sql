@@ -24,6 +24,6 @@ cleaned as (
     length_new, 
     length_old,
     make_timestamp(timestamp * 1000000) as event_timestamp
-  from raw join lang_region using (wiki)
+  from raw left join lang_region using (wiki)
 )
 select * from cleaned 
