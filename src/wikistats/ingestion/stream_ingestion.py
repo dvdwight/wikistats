@@ -103,18 +103,23 @@ def write_parquet(table):
 def ingest(batch_size=50, timeout=3):
     """
     Main ingestion function.
+    Returns a set of file paths written during ingestion.
     """
     print(f"Starting ingestion… writing to {RAW_DIR}")
+    
+    files = set()
 
     for batch in stream_events(batch_size=batch_size, timeout=timeout):
         print(f"Processing batch of {len(batch)} events…")
         table = convert_to_arrow(batch)
         print(f"Converted to Arrow table with {table.num_rows} rows.")
         path = write_parquet(table)
+        files.add(path)
 
         print(f"Wrote {len(batch)} events → {path}")
 
     print("Ingestion complete.")
+    return files
 
 
 if __name__ == "__main__":

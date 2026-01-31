@@ -12,4 +12,5 @@ dependencies = [
     "streamlit>=1.53.1",
 ]
 
-[tool.uv] package = true
+[tool.uv] 
+package = true

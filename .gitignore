@@ -11,3 +11,4 @@ wheels/
 
 #i want to ignore all data/raw files
 data/raw/*
+data/enriched/*

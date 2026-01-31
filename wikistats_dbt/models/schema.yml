@@ -1,0 +1,53 @@
+
+version: 2
+
+models:
+  - name: stg_wikistats_enriched
+    description: "Cleaned and normalised Wikipedia edit events enriched with Wikidata classifications. Reads from parquet files in data/raw/."
+    columns:
+      - name: title
+        description: "Page title"
+      - name: wiki
+        description: "Wiki project code"
+      - name: wikidata_id
+        description: "Wikidata entity ID"
+      - name: instance_of
+        description: "Wikidata instance classifications"
+      - name: subclass_of
+        description: "Wikidata subclass classifications"
+      - name: language
+        description: "Language code"
+      - name: region
+        description: "Geographic region"
+      - name: user
+        description: "Edit author username"
+      - name: comment
+        description: "Edit comment"
+      - name: bot
+        description: "Whether edit was by bot"
+      - name: minor
+        description: "Whether edit was marked minor"
+      - name: server_name
+        description: "Server identifier"
+      - name: length_new
+        description: "Page length after edit"
+      - name: length_old
+        description: "Page length before edit"
+      - name: event_timestamp
+        description: "Timestamp of edit event"
+
+
+seeds:
+  - name: seed_wiki_language_region.csv
+    description: A mapping of wiki project codes to language and region
+    columns:
+      - name: wiki
+        description: "Wiki project code"
+        data_tests:
+          - unique
+          - not_null
+      - name: region
+        description: "Geographic region"
+      - name: language
+        description: "Language code"
+    

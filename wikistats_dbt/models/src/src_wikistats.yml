@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: wikistats
+    schema: main
+    tables:
+      - name: enriched_events
+        external:
+          location: "../../data/raw/*_enriched.parquet"
+          format: parquet
