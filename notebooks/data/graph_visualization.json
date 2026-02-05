@@ -1,0 +1,1960 @@
+{
+  "nodes": [
+    {
+      "id": "Q35127",
+      "label": "\"website\"",
+      "description": "\"set of related web pages served from a single web domain\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q134995802\"]",
+      "subclass_of": "[\"Q1076968\",\"Q1714118\",\"Q19967801\",\"Q107307154\",\"Q108637623\",\"Q119648796\",\"Q7397\",\"Q3427877\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q19765983",
+      "label": "\"romantic fiction\"",
+      "description": "\"fiction genre\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q108465955\"]",
+      "subclass_of": "[\"Q8253\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q1153767",
+      "label": "\"platform as a service\"",
+      "description": "\"category of cloud computing services\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q268592\"]",
+      "subclass_of": "[\"Q1382299\",\"Q483639\",\"Q241317\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q4864674",
+      "label": "\"eicosatetraenoic acid\"",
+      "description": "\"group of chemical compounds\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q47154513\"]",
+      "subclass_of": "[\"Q2250497\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q24354",
+      "label": "\"theatre building\"",
+      "description": "\"building designed for presentation of dramatic performances\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q57660343\",\"Q2310313\",\"Q114961210\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q119025401",
+      "label": "\"tracking category automatically populated by MediaWiki\"",
+      "description": "\"type of Wikimedia tracking category automatically populated by MediaWiki software only and listed in \\\"Special:TrackingCategories\\\"\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q67131190\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q171558",
+      "label": "\"accident\"",
+      "description": "\"unforeseen event that causes damage to a person or property\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q100151658\"]",
+      "subclass_of": "[\"Q12890393\",\"Q1689296\",\"Q2438541\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q2354973",
+      "label": "\"road tunnel\"",
+      "description": "\"tunnel built for vehicular road traffic\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q27955379\",\"Q44377\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q1848665",
+      "label": "\"list of public holidays in the Netherlands\"",
+      "description": "\"Wikimedia list article\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q13406463\"]",
+      "subclass_of": "null",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q775344",
+      "label": "\"teen drama television\"",
+      "description": "\"television genre\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q15961987\"]",
+      "subclass_of": "[\"Q1366112\",\"Q102430381\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q12323",
+      "label": "\"dam\"",
+      "description": "\"barrier that impounds water or underground streams\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q332907\",\"Q121359\",\"Q264661\",\"Q811979\",\"Q105190\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q3267310",
+      "label": "\"nicotine marketing\"",
+      "description": "\"type of marketing\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q37038\"]",
+      "subclass_of": "[\"Q39809\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q3558970",
+      "label": "\"village of Poland\"",
+      "description": "\"type of populated place\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q28872924\"]",
+      "subclass_of": "[\"Q532\",\"Q855451\",\"Q14757767\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q187634",
+      "label": "\"emulsion\"",
+      "description": "\"mixture of two or more liquids that are normally immiscible\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q181780\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q18706315",
+      "label": "\"hypothetical entity\"",
+      "description": "\"entity whose existence is possible, but not proven\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q96251598\"]",
+      "subclass_of": "[\"Q35120\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q105543609",
+      "label": "\"musical work/composition\"",
+      "description": "\"Wikidata metaclass; legal concept of uniquely identifiable piece or work of music, either vocal or instrumental; NOT applicable to recordings, broadcasts, or individual publications of music in printed or digital form or on physical media\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q19478619\"]",
+      "subclass_of": "[\"Q2188189\",\"Q15621286\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q5398426",
+      "label": "\"television series\"",
+      "description": "\"connected set of television program episodes under the same title\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q110562117\"]",
+      "subclass_of": "[\"Q15416\",\"Q7725310\"]",
+      "in_degree": 3,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q21672098",
+      "label": "\"village of Ukraine\"",
+      "description": "\"type of Ukrainian administrative division\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q28872924\"]",
+      "subclass_of": "[\"Q532\",\"Q12051488\",\"Q13221722\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q3270632",
+      "label": "\"national championship\"",
+      "description": "\"competition at national level\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q1079023\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q47345468",
+      "label": "\"tennis tournament edition\"",
+      "description": "\"edition in a specific year of a competition held regularly, e.g. every year. Use with P31\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q114609228\",\"Q13219666\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q3957",
+      "label": "\"town\"",
+      "description": "\"settlement that is smaller than a city but bigger than a large village (or a large borough in some areas)\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q98966309\"]",
+      "subclass_of": "[\"Q124250988\",\"Q7930989\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q132311",
+      "label": "\"fantasy\"",
+      "description": "\"genre of speculative fiction set in a fictional universe, often inspired by real world myth and folklore\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q20076756\"]",
+      "subclass_of": "[\"Q9326077\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q575759",
+      "label": "\"war memorial\"",
+      "description": "\"memorial for the victims of a war\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q5003624\",\"Q4989906\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q738473",
+      "label": "\"romance\"",
+      "description": "\"literary genre\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q223393\"]",
+      "subclass_of": "[\"Q38072107\",\"Q6647667\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q5003624",
+      "label": "\"memorial\"",
+      "description": "\"area or object, smaller than a monument, which serves as a focus for memory of something\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q1354775\",\"Q4989906\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q7889",
+      "label": "\"video game\"",
+      "description": "\"electronic game with user interface and visual feedback\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q56055944\",\"Q17155032\"]",
+      "subclass_of": "[\"Q2249149\",\"Q51938570\",\"Q2431196\",\"Q166142\",\"Q115920686\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q1210334",
+      "label": "\"railway bridge\"",
+      "description": "\"bridge that can be crossed by a train\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q17644912\"]",
+      "subclass_of": "[\"Q12280\",\"Q1311670\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q202833",
+      "label": "\"social media\"",
+      "description": "\"virtual online communities\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q8187769\",\"Q268592\",\"Q340169\",\"Q483394\",\"Q1047113\",\"Q2267705\",\"Q121132955\"]",
+      "subclass_of": "[\"Q340169\",\"Q107307154\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q15773347",
+      "label": "\"film character\"",
+      "description": "\"fictional character appearing in a film\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q112265308\"]",
+      "subclass_of": "[\"Q95074\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q783794",
+      "label": "\"company\"",
+      "description": "\"legal entity representing an association of people, whether natural, legal or a mixture of both, with a specific objective\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q17197366\",\"Q10541491\"]",
+      "subclass_of": "[\"Q3778211\",\"Q21980538\",\"Q43229\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q113145171",
+      "label": "\"type of chemical entity\"",
+      "description": "\"Wikidata metaclass that covers physical entities of interest in chemistry including molecular entities and pure chemical substances\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q19478619\"]",
+      "subclass_of": "[\"Q43460564\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q505815",
+      "label": "\"Trappist beer\"",
+      "description": "\"beer brewed by Trappist breweries\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q1998962\"]",
+      "subclass_of": "[\"Q1050906\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q3220391",
+      "label": "\"social networking service\"",
+      "description": "\"online platform that facilitates the building of social relations\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q210980\",\"Q202833\",\"Q1668024\",\"Q35127\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q117350903",
+      "label": "\"hyperscaler\"",
+      "description": "\"a large provider of datacenter infrastructure and cloud services\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q241317\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q1761818",
+      "label": "\"advertising campaign\"",
+      "description": "\"series of advertisements centered around a particular theme or character\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q62090711\",\"Q37038\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q15075508",
+      "label": "\"beer brand\"",
+      "description": "\"brand name used for beer\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q24017414\"]",
+      "subclass_of": "[\"Q80359036\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q16521",
+      "label": "\"taxon\"",
+      "description": "\"group of one or more organism(s), which a taxonomist adjudges to be a unit\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q24017414\",\"Q115949945\"]",
+      "subclass_of": "[\"Q21871294\"]",
+      "in_degree": 5,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q22674925",
+      "label": "\"former settlement\"",
+      "description": "\"settlement that no longer exists, e.g. because it was abandoned, destroyed, abolished or it became part of another settlement\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q98966309\"]",
+      "subclass_of": "[\"Q486972\",\"Q96088545\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q63985084",
+      "label": "\"mathematical principle\"",
+      "description": "\"principle in mathematics\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q211364\",\"Q24034552\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q4830453",
+      "label": "\"business\"",
+      "description": "\"organization undertaking commercial, industrial, or professional activity\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q2135465\",\"Q1047113\",\"Q17197366\"]",
+      "subclass_of": "[\"Q43229\",\"Q12569864\",\"Q155076\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q14795564",
+      "label": "\"point in time with respect to recurrent timeframe\"",
+      "description": "\"item to calculate dates of periodic occurence\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q1190554\",\"Q186408\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q478679",
+      "label": "\"caf\u00e9-chantant\"",
+      "description": "\"type of musical establishment associated with the belle \u00e9poque in France\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q30022\",\"Q8719053\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q118874936",
+      "label": "\"Piemonte Open\"",
+      "description": "\"tennis tournament\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q18608583\"]",
+      "subclass_of": "[\"Q13219666\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q17537576",
+      "label": "\"creative work\"",
+      "description": "\"artistic creation\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q15621286\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q241317",
+      "label": "\"computing platform\"",
+      "description": "\"environment in which a piece of software is executed\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q2424752\",\"Q994895\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q1961323",
+      "label": "\"public holidays in Denmark\"",
+      "description": "\"Wikimedia list article\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q13406463\",\"Q74817647\"]",
+      "subclass_of": "null",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q620615",
+      "label": "\"mobile app\"",
+      "description": "\"software application designed to run on mobile devices\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q17155032\"]",
+      "subclass_of": "[\"Q166142\",\"Q21743174\",\"Q340169\",\"Q40056\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q4287745",
+      "label": "\"medical organization\"",
+      "description": "\"organization which supports the field of medicine\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q43229\",\"Q30139652\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q747074",
+      "label": "\"commune of Italy\"",
+      "description": "\"municipal divisions of Italy\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q13221722\",\"Q2824645\",\"Q15284\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q22808404",
+      "label": "\"station located on surface\"",
+      "description": "\"type of station\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q11668217\"]",
+      "subclass_of": "[\"Q12819564\",\"Q130391302\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q2398229",
+      "label": "\"public holidays in Norway\"",
+      "description": "\"Wikimedia list article\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q13406463\"]",
+      "subclass_of": "null",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q198",
+      "label": "\"war\"",
+      "description": "\"organized and prolonged violent conflict between different nations, states, or different groups within a nation or state\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q125092269\",\"Q17524420\"]",
+      "subclass_of": "[\"Q350604\",\"Q1920219\",\"Q1190554\",\"Q15835236\",\"Q17091170\",\"Q6428674\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q341",
+      "label": "\"free software\"",
+      "description": "\"software distributed under terms that allow users to freely run, study, change and distribute it and modified versions\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q17155032\"]",
+      "subclass_of": "[\"Q5500964\",\"Q56273712\",\"Q1130645\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q34442",
+      "label": "\"road\"",
+      "description": "\"wide way leading from one place to another, especially one with a specially prepared surface which vehicles can use\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q1322323\",\"Q113519195\",\"Q83620\",\"Q123414165\",\"Q27955379\",\"Q28456301\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q29946056",
+      "label": "\"highly urbanized city\"",
+      "description": "\"legal class for a city in the Philippines\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q15617994\"]",
+      "subclass_of": "[\"Q104157\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q11424",
+      "label": "\"film\"",
+      "description": "\"sequence of images that give the impression of movement, stored on film stock\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q2431196\",\"Q10301427\",\"Q4502142\"]",
+      "in_degree": 6,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q38723",
+      "label": "\"higher education institution\"",
+      "description": "\"institution that provides higher education (e.g., universities, vocational universities, community colleges, liberal arts colleges, institutes of technology, and others)\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q112872396\"]",
+      "subclass_of": "[\"Q2385804\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q484170",
+      "label": "\"commune of France\"",
+      "description": "\"France territorial subdivision for municipalities\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q20667921\"]",
+      "subclass_of": "[\"Q3266850\",\"Q192611\",\"Q583865\",\"Q11618417\",\"Q14757767\",\"Q15640612\"]",
+      "in_degree": 4,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q17051044",
+      "label": "\"mahalle\"",
+      "description": "\"type of subdivision in Turkey\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q15617994\"]",
+      "subclass_of": "[\"Q486972\",\"Q123705\",\"Q2916486\"]",
+      "in_degree": 2,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q196294",
+      "label": "\"free license\"",
+      "description": "\"type of license used for open content or open software\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q7257461\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q26703203",
+      "label": "\"Stolperstein\"",
+      "description": "\"small commemorative plaque set into the ground for an individual victim of Nazism, part of the Stolperstein project by Gunter Demnig\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q721747\",\"Q112776888\",\"Q1792363\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q18511725",
+      "label": "\"market town\"",
+      "description": "\"settlement that has the right to host markets\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q3957\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q30515",
+      "label": "\"slogan\"",
+      "description": "\"memorable motto or phrase used in social movements & advertisements\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q19610271\"]",
+      "subclass_of": "[\"Q187931\",\"Q42470\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q9826",
+      "label": "\"high school\"",
+      "description": "\"institution which provides final part of secondary education\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q159334\",\"Q27096213\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q1210425",
+      "label": "\"internet hosting service\"",
+      "description": "\"service that runs Internet servers, allowing organizations and individuals to serve content to the Internet\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q43229\",\"Q4830453\"]",
+      "subclass_of": "[\"Q1668024\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q2590631",
+      "label": "\"municipality of Hungary\"",
+      "description": "\"administrative division of Hungary\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q532\",\"Q14502790\",\"Q13221722\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q15991303",
+      "label": "\"association football league\"",
+      "description": "\"league of association football that take place across a country or to a local area of a country\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q623109\",\"Q34548322\",\"Q1478437\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q27020041",
+      "label": "\"sports season\"",
+      "description": "\"season of a sports league or competition, generally a specific one year period\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q61685689\"]",
+      "subclass_of": "[\"Q10688145\",\"Q13406554\",\"Q114609228\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q118140435",
+      "label": "\"very large online platform\"",
+      "description": "\"online platforms with over 45 million users in the European Union\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q2135465\"]",
+      "subclass_of": "[\"Q35127\",\"Q4182287\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q839954",
+      "label": "\"archaeological site\"",
+      "description": "\"place (or group of physical sites) in which evidence of past activity is preserved\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q1291195\",\"Q15642541\",\"Q2221906\",\"Q2686349\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q42750320",
+      "label": "\"border incident\"",
+      "description": "\"armed incident localized to near a border\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q1078001\",\"Q12890393\",\"Q1227249\",\"Q350604\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q122759350",
+      "label": "\"user-generated content platform\"",
+      "description": "\"type of online service that allows its users to upload and share self-created content with other users of the platform\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q1668024\",\"Q28017710\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q1425560",
+      "label": "\"overpass\"",
+      "description": "\"structure that is over another road or railway\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q181348\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q928830",
+      "label": "\"metro station\"",
+      "description": "\"railway station of a rapid transit system\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q11668217\"]",
+      "subclass_of": "[\"Q55488\",\"Q124673697\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q30149195",
+      "label": "\"biblical concept\"",
+      "description": "\"major theme, issue, or idea in the Bible\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q1053916\",\"Q23847174\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q15632617",
+      "label": "\"fictional human\"",
+      "description": "\"human being that only exists in fictional works\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q15831596\",\"Q21192438\"]",
+      "subclass_of": "[\"Q96789464\",\"Q97498056\",\"Q28020127\",\"Q122192387\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q63349598",
+      "label": "\"women's national handball team\"",
+      "description": "\"women's handball team that represents a country in international competitions\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q50808536\",\"Q8031011\",\"Q1194951\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q53945096",
+      "label": "\"group during sports competition\"",
+      "description": "\"overview of a group during the group stage of a sports competition\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q16510064\",\"Q13406554\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q1401522",
+      "label": "\"public holidays in Sweden\"",
+      "description": "\"Wikimedia list article\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q13406463\"]",
+      "subclass_of": "null",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q215380",
+      "label": "\"musical group\"",
+      "description": "\"musical ensemble which performs music\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q2088357\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q11707",
+      "label": "\"restaurant\"",
+      "description": "\"single establishment which prepares and serves food, located in building\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q13226383\",\"Q41176\",\"Q27077054\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q6576792",
+      "label": "\"online community\"",
+      "description": "\"virtual community that exists online\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q210980\",\"Q35127\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q1115575",
+      "label": "\"civil parish\"",
+      "description": "\"territorial designation and lowest tier of local government in England, UK\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "null",
+      "subclass_of": "[\"Q171634\",\"Q4976993\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q179700",
+      "label": "\"statue\"",
+      "description": "\"sculpture primarily conceived as a representational figure\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q18783400\"]",
+      "subclass_of": "[\"Q860861\",\"Q29527347\",\"Q8205328\",\"Q220659\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q2250497",
+      "label": "\"unsaturated fatty acid\"",
+      "description": "\"fatty acid having at least one double or triple bond within the carbon chain\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q47154513\"]",
+      "subclass_of": "[\"Q61476\",\"Q899851\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q20644555",
+      "label": "\"fantasy genre\"",
+      "description": "\"subgenre within the fantasy genre\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q19478619\"]",
+      "subclass_of": "[\"Q20076756\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q60075825",
+      "label": "\"Christian holy day\"",
+      "description": "\"religious day within Christianity\"",
+      "first_seen": "\"2026-02-05T14:52:20.669590\"",
+      "instance_of": "[\"Q134485872\"]",
+      "subclass_of": "[\"Q375011\"]",
+      "in_degree": 1,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "Q5",
+      "label": "\"human\"",
+      "description": "\"any single member of Homo sapiens, unique extant species of the genus Homo\"",
+      "first_seen": "\"2026-02-05T14:48:56.554521\"",
+      "instance_of": "[\"Q55983715\"]",
+      "subclass_of": "[\"Q110551885\",\"Q215627\",\"Q26401003\",\"Q164509\",\"Q154954\"]",
+      "in_degree": 32,
+      "out_degree": 0,
+      "betweenness_centrality": 0.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "Q355",
+      "target": "Q35127",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"website\""
+    },
+    {
+      "source": "Q930383",
+      "target": "Q19765983",
+      "relationship": "subclass_of",
+      "source_label": null,
+      "target_label": "\"romantic fiction\""
+    },
+    {
+      "source": "Q456157",
+      "target": "Q1153767",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"platform as a service\""
+    },
+    {
+      "source": "Q407699",
+      "target": "Q4864674",
+      "relationship": "subclass_of",
+      "source_label": null,
+      "target_label": "\"eicosatetraenoic acid\""
+    },
+    {
+      "source": "Q128693188",
+      "target": "Q24354",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"theatre building\""
+    },
+    {
+      "source": "Q10152088",
+      "target": "Q119025401",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"tracking category automatically populated by MediaWiki\""
+    },
+    {
+      "source": "Q137828507",
+      "target": "Q171558",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"accident\""
+    },
+    {
+      "source": "Q12777842",
+      "target": "Q2354973",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"road tunnel\""
+    },
+    {
+      "source": "Q39864",
+      "target": "Q1848665",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"list of public holidays in the Netherlands\""
+    },
+    {
+      "source": "Q31197538",
+      "target": "Q775344",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"teen drama television\""
+    },
+    {
+      "source": "Q2118119",
+      "target": "Q12323",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"dam\""
+    },
+    {
+      "source": "Q7901651",
+      "target": "Q3267310",
+      "relationship": "subclass_of",
+      "source_label": null,
+      "target_label": "\"nicotine marketing\""
+    },
+    {
+      "source": "Q6440843",
+      "target": "Q3558970",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"village of Poland\""
+    },
+    {
+      "source": "Q3046735",
+      "target": "Q187634",
+      "relationship": "subclass_of",
+      "source_label": null,
+      "target_label": "\"emulsion\""
+    },
+    {
+      "source": "Q6712072",
+      "target": "Q18706315",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"hypothetical entity\""
+    },
+    {
+      "source": "Q137673302",
+      "target": "Q105543609",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"musical work/composition\""
+    },
+    {
+      "source": "Q818928",
+      "target": "Q5398426",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"television series\""
+    },
+    {
+      "source": "Q4536196",
+      "target": "Q21672098",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"village of Ukraine\""
+    },
+    {
+      "source": "Q275665",
+      "target": "Q3270632",
+      "relationship": "subclass_of",
+      "source_label": null,
+      "target_label": "\"national championship\""
+    },
+    {
+      "source": "Q125747478",
+      "target": "Q47345468",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"tennis tournament edition\""
+    },
+    {
+      "source": "Q641756",
+      "target": "Q3957",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"town\""
+    },
+    {
+      "source": "Q930383",
+      "target": "Q132311",
+      "relationship": "subclass_of",
+      "source_label": null,
+      "target_label": "\"fantasy\""
+    },
+    {
+      "source": "Q137917175",
+      "target": "Q575759",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"war memorial\""
+    },
+    {
+      "source": "Q930383",
+      "target": "Q738473",
+      "relationship": "subclass_of",
+      "source_label": null,
+      "target_label": "\"romance\""
+    },
+    {
+      "source": "Q137917175",
+      "target": "Q5003624",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"memorial\""
+    },
+    {
+      "source": "Q3500399",
+      "target": "Q7889",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"video game\""
+    },
+    {
+      "source": "Q109835236",
+      "target": "Q1210334",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"railway bridge\""
+    },
+    {
+      "source": "Q355",
+      "target": "Q202833",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"social media\""
+    },
+    {
+      "source": "Q115867207",
+      "target": "Q15773347",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"film character\""
+    },
+    {
+      "source": "Q136593501",
+      "target": "Q783794",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"company\""
+    },
+    {
+      "source": "Q407699",
+      "target": "Q113145171",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"type of chemical entity\""
+    },
+    {
+      "source": "Q19915283",
+      "target": "Q505815",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"Trappist beer\""
+    },
+    {
+      "source": "Q355",
+      "target": "Q3220391",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"social networking service\""
+    },
+    {
+      "source": "Q456157",
+      "target": "Q117350903",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"hyperscaler\""
+    },
+    {
+      "source": "Q7901651",
+      "target": "Q1761818",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"advertising campaign\""
+    },
+    {
+      "source": "Q19915283",
+      "target": "Q15075508",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"beer brand\""
+    },
+    {
+      "source": "Q1307174",
+      "target": "Q16521",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"taxon\""
+    },
+    {
+      "source": "Q1757438",
+      "target": "Q22674925",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"former settlement\""
+    },
+    {
+      "source": "Q849335",
+      "target": "Q63985084",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"mathematical principle\""
+    },
+    {
+      "source": "Q456157",
+      "target": "Q4830453",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"business\""
+    },
+    {
+      "source": "Q39864",
+      "target": "Q14795564",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"point in time with respect to recurrent timeframe\""
+    },
+    {
+      "source": "Q128693188",
+      "target": "Q478679",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"caf\u00e9-chantant\""
+    },
+    {
+      "source": "Q125747478",
+      "target": "Q118874936",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"Piemonte Open\""
+    },
+    {
+      "source": "Q6712072",
+      "target": "Q17537576",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"creative work\""
+    },
+    {
+      "source": "Q456157",
+      "target": "Q241317",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"computing platform\""
+    },
+    {
+      "source": "Q39864",
+      "target": "Q1961323",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"public holidays in Denmark\""
+    },
+    {
+      "source": "Q355",
+      "target": "Q620615",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"mobile app\""
+    },
+    {
+      "source": "Q30265870",
+      "target": "Q4287745",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"medical organization\""
+    },
+    {
+      "source": "Q99963",
+      "target": "Q747074",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"commune of Italy\""
+    },
+    {
+      "source": "Q2502126",
+      "target": "Q22808404",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"station located on surface\""
+    },
+    {
+      "source": "Q39864",
+      "target": "Q2398229",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"public holidays in Norway\""
+    },
+    {
+      "source": "Q170314",
+      "target": "Q198",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"war\""
+    },
+    {
+      "source": "Q137601716",
+      "target": "Q341",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"free software\""
+    },
+    {
+      "source": "Q106881040",
+      "target": "Q34442",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"road\""
+    },
+    {
+      "source": "Q17176",
+      "target": "Q29946056",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"highly urbanized city\""
+    },
+    {
+      "source": "Q124408474",
+      "target": "Q11424",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"film\""
+    },
+    {
+      "source": "Q12166950",
+      "target": "Q38723",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"higher education institution\""
+    },
+    {
+      "source": "Q989145",
+      "target": "Q484170",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"commune of France\""
+    },
+    {
+      "source": "Q6625178",
+      "target": "Q17051044",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"mahalle\""
+    },
+    {
+      "source": "Q56064789",
+      "target": "Q196294",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"free license\""
+    },
+    {
+      "source": "Q100900632",
+      "target": "Q26703203",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"Stolperstein\""
+    },
+    {
+      "source": "Q641756",
+      "target": "Q18511725",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"market town\""
+    },
+    {
+      "source": "Q7901651",
+      "target": "Q30515",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"slogan\""
+    },
+    {
+      "source": "Q7330652",
+      "target": "Q9826",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"high school\""
+    },
+    {
+      "source": "Q456157",
+      "target": "Q1210425",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"internet hosting service\""
+    },
+    {
+      "source": "Q786332",
+      "target": "Q2590631",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"municipality of Hungary\""
+    },
+    {
+      "source": "Q275665",
+      "target": "Q15991303",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"association football league\""
+    },
+    {
+      "source": "Q20917472",
+      "target": "Q27020041",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"sports season\""
+    },
+    {
+      "source": "Q355",
+      "target": "Q118140435",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"very large online platform\""
+    },
+    {
+      "source": "Q1757438",
+      "target": "Q839954",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"archaeological site\""
+    },
+    {
+      "source": "Q135451530",
+      "target": "Q42750320",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"border incident\""
+    },
+    {
+      "source": "Q355",
+      "target": "Q122759350",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"user-generated content platform\""
+    },
+    {
+      "source": "Q109835236",
+      "target": "Q1425560",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"overpass\""
+    },
+    {
+      "source": "Q2502126",
+      "target": "Q928830",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"metro station\""
+    },
+    {
+      "source": "Q39864",
+      "target": "Q30149195",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"biblical concept\""
+    },
+    {
+      "source": "Q115867207",
+      "target": "Q15632617",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"fictional human\""
+    },
+    {
+      "source": "Q661049",
+      "target": "Q63349598",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"women's national handball team\""
+    },
+    {
+      "source": "Q25239531",
+      "target": "Q53945096",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"group during sports competition\""
+    },
+    {
+      "source": "Q39864",
+      "target": "Q1401522",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"public holidays in Sweden\""
+    },
+    {
+      "source": "Q60986131",
+      "target": "Q215380",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"musical group\""
+    },
+    {
+      "source": "Q128693188",
+      "target": "Q11707",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"restaurant\""
+    },
+    {
+      "source": "Q355",
+      "target": "Q6576792",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"online community\""
+    },
+    {
+      "source": "Q641756",
+      "target": "Q1115575",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"civil parish\""
+    },
+    {
+      "source": "Q20712505",
+      "target": "Q179700",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"statue\""
+    },
+    {
+      "source": "Q407699",
+      "target": "Q2250497",
+      "relationship": "subclass_of",
+      "source_label": null,
+      "target_label": "\"unsaturated fatty acid\""
+    },
+    {
+      "source": "Q930383",
+      "target": "Q20644555",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"fantasy genre\""
+    },
+    {
+      "source": "Q39864",
+      "target": "Q60075825",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"Christian holy day\""
+    },
+    {
+      "source": "Q364899",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q135642079",
+      "target": "Q5398426",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"television series\""
+    },
+    {
+      "source": "Q28532241",
+      "target": "Q16521",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"taxon\""
+    },
+    {
+      "source": "Q137601716",
+      "target": "Q341",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"free software\""
+    },
+    {
+      "source": "Q841118",
+      "target": "Q11424",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"film\""
+    },
+    {
+      "source": "Q612274",
+      "target": "Q484170",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"commune of France\""
+    },
+    {
+      "source": "Q6628271",
+      "target": "Q17051044",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"mahalle\""
+    },
+    {
+      "source": "Q19666336",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q11265791",
+      "target": "Q5398426",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"television series\""
+    },
+    {
+      "source": "Q13444480",
+      "target": "Q16521",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"taxon\""
+    },
+    {
+      "source": "Q3234357",
+      "target": "Q11424",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"film\""
+    },
+    {
+      "source": "Q989726",
+      "target": "Q484170",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"commune of France\""
+    },
+    {
+      "source": "Q110813335",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q149131",
+      "target": "Q16521",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"taxon\""
+    },
+    {
+      "source": "Q867294",
+      "target": "Q11424",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"film\""
+    },
+    {
+      "source": "Q369903",
+      "target": "Q484170",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"commune of France\""
+    },
+    {
+      "source": "Q58885842",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q1846334",
+      "target": "Q16521",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"taxon\""
+    },
+    {
+      "source": "Q751921",
+      "target": "Q11424",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"film\""
+    },
+    {
+      "source": "Q5746333",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q1055299",
+      "target": "Q11424",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"film\""
+    },
+    {
+      "source": "Q131678425",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q6112216",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q2914533",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q767330",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q4757753",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q2306903",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q1225",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q4773544",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q453196",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q28803855",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q28803855",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q136396188",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q26636",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q108679068",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q389233",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q107932",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q84589368",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q84589368",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q84589368",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q84589368",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q84589368",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q231630",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q16492",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q28872954",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q510416",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q9358",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q335013",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q762202",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q4093918",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q640347",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q114552",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    },
+    {
+      "source": "Q2654539",
+      "target": "Q5",
+      "relationship": "instance_of",
+      "source_label": null,
+      "target_label": "\"human\""
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-02-05T15:06:19.764216",
+    "total_nodes": 88,
+    "total_edges": 140,
+    "density": 0.003894216797442604
+  }
+}

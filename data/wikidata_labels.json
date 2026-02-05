@@ -1,0 +1,2203 @@
+{
+  "Q5": {
+    "label": "human",
+    "description": "any single member of Homo sapiens, unique extant species of the genus Homo",
+    "instance_of": [
+      "Q55983715"
+    ],
+    "subclass_of": [
+      "Q110551885",
+      "Q215627",
+      "Q26401003",
+      "Q164509",
+      "Q154954"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T14:48:56.554521"
+  },
+  "Q60075825": {
+    "label": "Christian holy day",
+    "description": "religious day within Christianity",
+    "instance_of": [
+      "Q134485872"
+    ],
+    "subclass_of": [
+      "Q375011"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q14204246": {
+    "label": "Wikimedia project page",
+    "description": "page in the non-article namespace 4 on a Wikimedia project serving internal purposes",
+    "instance_of": null,
+    "subclass_of": [
+      "Q17379835",
+      "Q17442446",
+      "Q118555179"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q20644555": {
+    "label": "fantasy genre",
+    "description": "subgenre within the fantasy genre",
+    "instance_of": [
+      "Q19478619"
+    ],
+    "subclass_of": [
+      "Q20076756"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q2250497": {
+    "label": "unsaturated fatty acid",
+    "description": "fatty acid having at least one double or triple bond within the carbon chain",
+    "instance_of": [
+      "Q47154513"
+    ],
+    "subclass_of": [
+      "Q61476",
+      "Q899851"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q15647814": {
+    "label": "Wikimedia administration category",
+    "description": "use with 'instance of' (P31) for wiki categories that are used for internal maintenance of the wiki rather than classification of its content",
+    "instance_of": null,
+    "subclass_of": [
+      "Q4167836"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q179700": {
+    "label": "statue",
+    "description": "sculpture primarily conceived as a representational figure",
+    "instance_of": [
+      "Q18783400"
+    ],
+    "subclass_of": [
+      "Q860861",
+      "Q29527347",
+      "Q8205328",
+      "Q220659"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q1115575": {
+    "label": "civil parish",
+    "description": "territorial designation and lowest tier of local government in England, UK",
+    "instance_of": null,
+    "subclass_of": [
+      "Q171634",
+      "Q4976993"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q6576792": {
+    "label": "online community",
+    "description": "virtual community that exists online",
+    "instance_of": null,
+    "subclass_of": [
+      "Q210980",
+      "Q35127"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q11707": {
+    "label": "restaurant",
+    "description": "single establishment which prepares and serves food, located in building",
+    "instance_of": null,
+    "subclass_of": [
+      "Q13226383",
+      "Q41176",
+      "Q27077054"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q215380": {
+    "label": "musical group",
+    "description": "musical ensemble which performs music",
+    "instance_of": null,
+    "subclass_of": [
+      "Q2088357"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q1401522": {
+    "label": "public holidays in Sweden",
+    "description": "Wikimedia list article",
+    "instance_of": [
+      "Q13406463"
+    ],
+    "subclass_of": null,
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q53945096": {
+    "label": "group during sports competition",
+    "description": "overview of a group during the group stage of a sports competition",
+    "instance_of": null,
+    "subclass_of": [
+      "Q16510064",
+      "Q13406554"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q63349598": {
+    "label": "women's national handball team",
+    "description": "women's handball team that represents a country in international competitions",
+    "instance_of": null,
+    "subclass_of": [
+      "Q50808536",
+      "Q8031011",
+      "Q1194951"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q15632617": {
+    "label": "fictional human",
+    "description": "human being that only exists in fictional works",
+    "instance_of": [
+      "Q15831596",
+      "Q21192438"
+    ],
+    "subclass_of": [
+      "Q96789464",
+      "Q97498056",
+      "Q28020127",
+      "Q122192387"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q30149195": {
+    "label": "biblical concept",
+    "description": "major theme, issue, or idea in the Bible",
+    "instance_of": null,
+    "subclass_of": [
+      "Q1053916",
+      "Q23847174"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q928830": {
+    "label": "metro station",
+    "description": "railway station of a rapid transit system",
+    "instance_of": [
+      "Q11668217"
+    ],
+    "subclass_of": [
+      "Q55488",
+      "Q124673697"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q1425560": {
+    "label": "overpass",
+    "description": "structure that is over another road or railway",
+    "instance_of": null,
+    "subclass_of": [
+      "Q181348"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q122759350": {
+    "label": "user-generated content platform",
+    "description": "type of online service that allows its users to upload and share self-created content with other users of the platform",
+    "instance_of": null,
+    "subclass_of": [
+      "Q1668024",
+      "Q28017710"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q42750320": {
+    "label": "border incident",
+    "description": "armed incident localized to near a border",
+    "instance_of": null,
+    "subclass_of": [
+      "Q1078001",
+      "Q12890393",
+      "Q1227249",
+      "Q350604"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q839954": {
+    "label": "archaeological site",
+    "description": "place (or group of physical sites) in which evidence of past activity is preserved",
+    "instance_of": null,
+    "subclass_of": [
+      "Q1291195",
+      "Q15642541",
+      "Q2221906",
+      "Q2686349"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q118140435": {
+    "label": "very large online platform",
+    "description": "online platforms with over 45 million users in the European Union",
+    "instance_of": [
+      "Q2135465"
+    ],
+    "subclass_of": [
+      "Q35127",
+      "Q4182287"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q27020041": {
+    "label": "sports season",
+    "description": "season of a sports league or competition, generally a specific one year period",
+    "instance_of": [
+      "Q61685689"
+    ],
+    "subclass_of": [
+      "Q10688145",
+      "Q13406554",
+      "Q114609228"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q15991303": {
+    "label": "association football league",
+    "description": "league of association football that take place across a country or to a local area of a country",
+    "instance_of": null,
+    "subclass_of": [
+      "Q623109",
+      "Q34548322",
+      "Q1478437"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q2590631": {
+    "label": "municipality of Hungary",
+    "description": "administrative division of Hungary",
+    "instance_of": null,
+    "subclass_of": [
+      "Q532",
+      "Q14502790",
+      "Q13221722"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q102314626": {
+    "label": "Wikimedia Commons tool",
+    "description": "tool for viewing or editing Wikimedia Commons content",
+    "instance_of": null,
+    "subclass_of": [
+      "Q63213147"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q1210425": {
+    "label": "internet hosting service",
+    "description": "service that runs Internet servers, allowing organizations and individuals to serve content to the Internet",
+    "instance_of": [
+      "Q43229",
+      "Q4830453"
+    ],
+    "subclass_of": [
+      "Q1668024"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q9826": {
+    "label": "high school",
+    "description": "institution which provides final part of secondary education",
+    "instance_of": null,
+    "subclass_of": [
+      "Q159334",
+      "Q27096213"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q30515": {
+    "label": "slogan",
+    "description": "memorable motto or phrase used in social movements & advertisements",
+    "instance_of": [
+      "Q19610271"
+    ],
+    "subclass_of": [
+      "Q187931",
+      "Q42470"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q18511725": {
+    "label": "market town",
+    "description": "settlement that has the right to host markets",
+    "instance_of": null,
+    "subclass_of": [
+      "Q3957"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q26703203": {
+    "label": "Stolperstein",
+    "description": "small commemorative plaque set into the ground for an individual victim of Nazism, part of the Stolperstein project by Gunter Demnig",
+    "instance_of": null,
+    "subclass_of": [
+      "Q721747",
+      "Q112776888",
+      "Q1792363"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q4167836": {
+    "label": "Wikimedia category",
+    "description": "use with 'instance of' (P31) for Wikimedia category",
+    "instance_of": [
+      "Q56005592",
+      "Q4656150"
+    ],
+    "subclass_of": [
+      "Q12139612",
+      "Q17442446",
+      "Q118555179"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q196294": {
+    "label": "free license",
+    "description": "type of license used for open content or open software",
+    "instance_of": null,
+    "subclass_of": [
+      "Q7257461"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q17051044": {
+    "label": "mahalle",
+    "description": "type of subdivision in Turkey",
+    "instance_of": [
+      "Q15617994"
+    ],
+    "subclass_of": [
+      "Q486972",
+      "Q123705",
+      "Q2916486"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q484170": {
+    "label": "commune of France",
+    "description": "France territorial subdivision for municipalities",
+    "instance_of": [
+      "Q20667921"
+    ],
+    "subclass_of": [
+      "Q3266850",
+      "Q192611",
+      "Q583865",
+      "Q11618417",
+      "Q14757767",
+      "Q15640612"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q38723": {
+    "label": "higher education institution",
+    "description": "institution that provides higher education (e.g., universities, vocational universities, community colleges, liberal arts colleges, institutes of technology, and others)",
+    "instance_of": [
+      "Q112872396"
+    ],
+    "subclass_of": [
+      "Q2385804"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q11424": {
+    "label": "film",
+    "description": "sequence of images that give the impression of movement, stored on film stock",
+    "instance_of": null,
+    "subclass_of": [
+      "Q2431196",
+      "Q10301427",
+      "Q4502142"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q29946056": {
+    "label": "highly urbanized city",
+    "description": "legal class for a city in the Philippines",
+    "instance_of": [
+      "Q15617994"
+    ],
+    "subclass_of": [
+      "Q104157"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q34442": {
+    "label": "road",
+    "description": "wide way leading from one place to another, especially one with a specially prepared surface which vehicles can use",
+    "instance_of": null,
+    "subclass_of": [
+      "Q1322323",
+      "Q113519195",
+      "Q83620",
+      "Q123414165",
+      "Q27955379",
+      "Q28456301"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q341": {
+    "label": "free software",
+    "description": "software distributed under terms that allow users to freely run, study, change and distribute it and modified versions",
+    "instance_of": [
+      "Q17155032"
+    ],
+    "subclass_of": [
+      "Q5500964",
+      "Q56273712",
+      "Q1130645"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q198": {
+    "label": "war",
+    "description": "organized and prolonged violent conflict between different nations, states, or different groups within a nation or state",
+    "instance_of": [
+      "Q125092269",
+      "Q17524420"
+    ],
+    "subclass_of": [
+      "Q350604",
+      "Q1920219",
+      "Q1190554",
+      "Q15835236",
+      "Q17091170",
+      "Q6428674"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q2398229": {
+    "label": "public holidays in Norway",
+    "description": "Wikimedia list article",
+    "instance_of": [
+      "Q13406463"
+    ],
+    "subclass_of": null,
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q22808404": {
+    "label": "station located on surface",
+    "description": "type of station",
+    "instance_of": [
+      "Q11668217"
+    ],
+    "subclass_of": [
+      "Q12819564",
+      "Q130391302"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q747074": {
+    "label": "commune of Italy",
+    "description": "municipal divisions of Italy",
+    "instance_of": null,
+    "subclass_of": [
+      "Q13221722",
+      "Q2824645",
+      "Q15284"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q4287745": {
+    "label": "medical organization",
+    "description": "organization which supports the field of medicine",
+    "instance_of": null,
+    "subclass_of": [
+      "Q43229",
+      "Q30139652"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q620615": {
+    "label": "mobile app",
+    "description": "software application designed to run on mobile devices",
+    "instance_of": [
+      "Q17155032"
+    ],
+    "subclass_of": [
+      "Q166142",
+      "Q21743174",
+      "Q340169",
+      "Q40056"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q1961323": {
+    "label": "public holidays in Denmark",
+    "description": "Wikimedia list article",
+    "instance_of": [
+      "Q13406463",
+      "Q74817647"
+    ],
+    "subclass_of": null,
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q241317": {
+    "label": "computing platform",
+    "description": "environment in which a piece of software is executed",
+    "instance_of": null,
+    "subclass_of": [
+      "Q2424752",
+      "Q994895"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q17537576": {
+    "label": "creative work",
+    "description": "artistic creation",
+    "instance_of": null,
+    "subclass_of": [
+      "Q15621286"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q23894233": {
+    "label": "Wikimedia templates category",
+    "description": "category containing Wikimedia templates; use with 'instance of' (P31) for Wikimedia category",
+    "instance_of": null,
+    "subclass_of": [
+      "Q15647814"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q118874936": {
+    "label": "Piemonte Open",
+    "description": "tennis tournament",
+    "instance_of": [
+      "Q18608583"
+    ],
+    "subclass_of": [
+      "Q13219666"
+    ],
+    "last_updated": "2026-02-05T14:52:19.397324",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q478679": {
+    "label": "caf\u00e9-chantant",
+    "description": "type of musical establishment associated with the belle \u00e9poque in France",
+    "instance_of": null,
+    "subclass_of": [
+      "Q30022",
+      "Q8719053"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q14795564": {
+    "label": "point in time with respect to recurrent timeframe",
+    "description": "item to calculate dates of periodic occurence",
+    "instance_of": null,
+    "subclass_of": [
+      "Q1190554",
+      "Q186408"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q4830453": {
+    "label": "business",
+    "description": "organization undertaking commercial, industrial, or professional activity",
+    "instance_of": [
+      "Q2135465",
+      "Q1047113",
+      "Q17197366"
+    ],
+    "subclass_of": [
+      "Q43229",
+      "Q12569864",
+      "Q155076"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q63985084": {
+    "label": "mathematical principle",
+    "description": "principle in mathematics",
+    "instance_of": null,
+    "subclass_of": [
+      "Q211364",
+      "Q24034552"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q125101059": {
+    "label": "Wikimedia soft redirect category",
+    "description": "soft redirect category page on a Wikimedia project; supposed to remain empty and provides a link to other valid category",
+    "instance_of": null,
+    "subclass_of": [
+      "Q114901426"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q22674925": {
+    "label": "former settlement",
+    "description": "settlement that no longer exists, e.g. because it was abandoned, destroyed, abolished or it became part of another settlement",
+    "instance_of": [
+      "Q98966309"
+    ],
+    "subclass_of": [
+      "Q486972",
+      "Q96088545"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q16521": {
+    "label": "taxon",
+    "description": "group of one or more organism(s), which a taxonomist adjudges to be a unit",
+    "instance_of": [
+      "Q24017414",
+      "Q115949945"
+    ],
+    "subclass_of": [
+      "Q21871294"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q15075508": {
+    "label": "beer brand",
+    "description": "brand name used for beer",
+    "instance_of": [
+      "Q24017414"
+    ],
+    "subclass_of": [
+      "Q80359036"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q1761818": {
+    "label": "advertising campaign",
+    "description": "series of advertisements centered around a particular theme or character",
+    "instance_of": null,
+    "subclass_of": [
+      "Q62090711",
+      "Q37038"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q117350903": {
+    "label": "hyperscaler",
+    "description": "a large provider of datacenter infrastructure and cloud services",
+    "instance_of": null,
+    "subclass_of": [
+      "Q241317"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q3220391": {
+    "label": "social networking service",
+    "description": "online platform that facilitates the building of social relations",
+    "instance_of": null,
+    "subclass_of": [
+      "Q210980",
+      "Q202833",
+      "Q1668024",
+      "Q35127"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q505815": {
+    "label": "Trappist beer",
+    "description": "beer brewed by Trappist breweries",
+    "instance_of": [
+      "Q1998962"
+    ],
+    "subclass_of": [
+      "Q1050906"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q67131190": {
+    "label": "Wikimedia tracking category",
+    "description": "Wikimedia administration category used for tracking a page characteristic",
+    "instance_of": null,
+    "subclass_of": [
+      "Q15647814"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q113145171": {
+    "label": "type of chemical entity",
+    "description": "Wikidata metaclass that covers physical entities of interest in chemistry including molecular entities and pure chemical substances",
+    "instance_of": [
+      "Q19478619"
+    ],
+    "subclass_of": [
+      "Q43460564"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q783794": {
+    "label": "company",
+    "description": "legal entity representing an association of people, whether natural, legal or a mixture of both, with a specific objective",
+    "instance_of": [
+      "Q17197366",
+      "Q10541491"
+    ],
+    "subclass_of": [
+      "Q3778211",
+      "Q21980538",
+      "Q43229"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q15773347": {
+    "label": "film character",
+    "description": "fictional character appearing in a film",
+    "instance_of": [
+      "Q112265308"
+    ],
+    "subclass_of": [
+      "Q95074"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q202833": {
+    "label": "social media",
+    "description": "virtual online communities",
+    "instance_of": [
+      "Q8187769",
+      "Q268592",
+      "Q340169",
+      "Q483394",
+      "Q1047113",
+      "Q2267705",
+      "Q121132955"
+    ],
+    "subclass_of": [
+      "Q340169",
+      "Q107307154"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q1210334": {
+    "label": "railway bridge",
+    "description": "bridge that can be crossed by a train",
+    "instance_of": [
+      "Q17644912"
+    ],
+    "subclass_of": [
+      "Q12280",
+      "Q1311670"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q7889": {
+    "label": "video game",
+    "description": "electronic game with user interface and visual feedback",
+    "instance_of": [
+      "Q56055944",
+      "Q17155032"
+    ],
+    "subclass_of": [
+      "Q2249149",
+      "Q51938570",
+      "Q2431196",
+      "Q166142",
+      "Q115920686"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q5003624": {
+    "label": "memorial",
+    "description": "area or object, smaller than a monument, which serves as a focus for memory of something",
+    "instance_of": null,
+    "subclass_of": [
+      "Q1354775",
+      "Q4989906"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q738473": {
+    "label": "romance",
+    "description": "literary genre",
+    "instance_of": [
+      "Q223393"
+    ],
+    "subclass_of": [
+      "Q38072107",
+      "Q6647667"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q575759": {
+    "label": "war memorial",
+    "description": "memorial for the victims of a war",
+    "instance_of": null,
+    "subclass_of": [
+      "Q5003624",
+      "Q4989906"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q132311": {
+    "label": "fantasy",
+    "description": "genre of speculative fiction set in a fictional universe, often inspired by real world myth and folklore",
+    "instance_of": [
+      "Q20076756"
+    ],
+    "subclass_of": [
+      "Q9326077"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q3957": {
+    "label": "town",
+    "description": "settlement that is smaller than a city but bigger than a large village (or a large borough in some areas)",
+    "instance_of": [
+      "Q98966309"
+    ],
+    "subclass_of": [
+      "Q124250988",
+      "Q7930989"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q47345468": {
+    "label": "tennis tournament edition",
+    "description": "edition in a specific year of a competition held regularly, e.g. every year. Use with P31",
+    "instance_of": null,
+    "subclass_of": [
+      "Q114609228",
+      "Q13219666"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q3270632": {
+    "label": "national championship",
+    "description": "competition at national level",
+    "instance_of": null,
+    "subclass_of": [
+      "Q1079023"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q21672098": {
+    "label": "village of Ukraine",
+    "description": "type of Ukrainian administrative division",
+    "instance_of": [
+      "Q28872924"
+    ],
+    "subclass_of": [
+      "Q532",
+      "Q12051488",
+      "Q13221722"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q5398426": {
+    "label": "television series",
+    "description": "connected set of television program episodes under the same title",
+    "instance_of": [
+      "Q110562117"
+    ],
+    "subclass_of": [
+      "Q15416",
+      "Q7725310"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q105543609": {
+    "label": "musical work/composition",
+    "description": "Wikidata metaclass; legal concept of uniquely identifiable piece or work of music, either vocal or instrumental; NOT applicable to recordings, broadcasts, or individual publications of music in printed or digital form or on physical media",
+    "instance_of": [
+      "Q19478619"
+    ],
+    "subclass_of": [
+      "Q2188189",
+      "Q15621286"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q18706315": {
+    "label": "hypothetical entity",
+    "description": "entity whose existence is possible, but not proven",
+    "instance_of": [
+      "Q96251598"
+    ],
+    "subclass_of": [
+      "Q35120"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q187634": {
+    "label": "emulsion",
+    "description": "mixture of two or more liquids that are normally immiscible",
+    "instance_of": null,
+    "subclass_of": [
+      "Q181780"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q3558970": {
+    "label": "village of Poland",
+    "description": "type of populated place",
+    "instance_of": [
+      "Q28872924"
+    ],
+    "subclass_of": [
+      "Q532",
+      "Q855451",
+      "Q14757767"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q3267310": {
+    "label": "nicotine marketing",
+    "description": "type of marketing",
+    "instance_of": [
+      "Q37038"
+    ],
+    "subclass_of": [
+      "Q39809"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q30330522": {
+    "label": "Wikimedia unknown parameters category",
+    "description": "Wikimedia category for pages that include templates with unknown parameters",
+    "instance_of": [
+      "Q24571886"
+    ],
+    "subclass_of": [
+      "Q15647814"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q12323": {
+    "label": "dam",
+    "description": "barrier that impounds water or underground streams",
+    "instance_of": null,
+    "subclass_of": [
+      "Q332907",
+      "Q121359",
+      "Q264661",
+      "Q811979",
+      "Q105190"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q775344": {
+    "label": "teen drama television",
+    "description": "television genre",
+    "instance_of": [
+      "Q15961987"
+    ],
+    "subclass_of": [
+      "Q1366112",
+      "Q102430381"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q1848665": {
+    "label": "list of public holidays in the Netherlands",
+    "description": "Wikimedia list article",
+    "instance_of": [
+      "Q13406463"
+    ],
+    "subclass_of": null,
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q2354973": {
+    "label": "road tunnel",
+    "description": "tunnel built for vehicular road traffic",
+    "instance_of": null,
+    "subclass_of": [
+      "Q27955379",
+      "Q44377"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q171558": {
+    "label": "accident",
+    "description": "unforeseen event that causes damage to a person or property",
+    "instance_of": [
+      "Q100151658"
+    ],
+    "subclass_of": [
+      "Q12890393",
+      "Q1689296",
+      "Q2438541"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q119025401": {
+    "label": "tracking category automatically populated by MediaWiki",
+    "description": "type of Wikimedia tracking category automatically populated by MediaWiki software only and listed in \"Special:TrackingCategories\"",
+    "instance_of": null,
+    "subclass_of": [
+      "Q67131190"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q24354": {
+    "label": "theatre building",
+    "description": "building designed for presentation of dramatic performances",
+    "instance_of": null,
+    "subclass_of": [
+      "Q57660343",
+      "Q2310313",
+      "Q114961210"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q4864674": {
+    "label": "eicosatetraenoic acid",
+    "description": "group of chemical compounds",
+    "instance_of": [
+      "Q47154513"
+    ],
+    "subclass_of": [
+      "Q2250497"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q1153767": {
+    "label": "platform as a service",
+    "description": "category of cloud computing services",
+    "instance_of": [
+      "Q268592"
+    ],
+    "subclass_of": [
+      "Q1382299",
+      "Q483639",
+      "Q241317"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q19765983": {
+    "label": "romantic fiction",
+    "description": "fiction genre",
+    "instance_of": [
+      "Q108465955"
+    ],
+    "subclass_of": [
+      "Q8253"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q35127": {
+    "label": "website",
+    "description": "set of related web pages served from a single web domain",
+    "instance_of": [
+      "Q134995802"
+    ],
+    "subclass_of": [
+      "Q1076968",
+      "Q1714118",
+      "Q19967801",
+      "Q107307154",
+      "Q108637623",
+      "Q119648796",
+      "Q7397",
+      "Q3427877"
+    ],
+    "last_updated": "2026-02-05T14:52:20.669590",
+    "first_seen_ingestion": "2026-02-05T14:52:20.669590"
+  },
+  "Q6056746": {
+    "label": "campaign",
+    "description": "series of operations undertaken to achieve a defined goal",
+    "instance_of": null,
+    "subclass_of": [
+      "Q1190554",
+      "Q180684",
+      "Q1656682",
+      "Q43229"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q18536594": {
+    "label": "Olympic sporting event",
+    "description": "individual event at the Olympic Games",
+    "instance_of": null,
+    "subclass_of": [
+      "Q16510064"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q30142173": {
+    "label": "sign of authenticity",
+    "description": null,
+    "instance_of": null,
+    "subclass_of": [
+      "Q15621286",
+      "Q286583",
+      "Q3695082"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q1190554": {
+    "label": "occurrence",
+    "description": "occurrence of a fact or object in space-time; instantiation of a property in an object",
+    "instance_of": null,
+    "subclass_of": [
+      "Q67518978"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q1549591": {
+    "label": "big city",
+    "description": "city with a population of at least 100,000",
+    "instance_of": [
+      "Q98966309"
+    ],
+    "subclass_of": [
+      "Q515"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q1968435": {
+    "label": "national cuisine",
+    "description": "culinary traditions typical of a nation (country), especially where different from other nations",
+    "instance_of": [
+      "Q19478619"
+    ],
+    "subclass_of": [
+      "Q94951"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q16252144": {
+    "label": "hidden message",
+    "description": "a concealed form of communication",
+    "instance_of": [
+      "Q11028"
+    ],
+    "subclass_of": [
+      "Q628523"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q62944360": {
+    "label": "country population",
+    "description": "type of demography",
+    "instance_of": null,
+    "subclass_of": [
+      "Q37732"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q18457896": {
+    "label": "student organization",
+    "description": "organization mainly made up of students",
+    "instance_of": null,
+    "subclass_of": [
+      "Q43229"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q193145": {
+    "label": "animal migration",
+    "description": "movement of animals from place to place, usually seasonal",
+    "instance_of": null,
+    "subclass_of": [
+      "Q1800545",
+      "Q2990593",
+      "Q15275719"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q515": {
+    "label": "city",
+    "description": "large human settlement",
+    "instance_of": [
+      "Q98966309"
+    ],
+    "subclass_of": [
+      "Q124250988",
+      "Q7930989",
+      "Q15284"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q2514025": {
+    "label": "posyolok",
+    "description": "type of settlement in Russia and Ukraine",
+    "instance_of": [
+      "Q15617994"
+    ],
+    "subclass_of": [
+      "Q10354598",
+      "Q56061"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q235690": {
+    "label": "common year starting and ending on Thursday",
+    "description": "type of year D on a solar calendar according to its starting and ending days in the week",
+    "instance_of": [
+      "Q56290623"
+    ],
+    "subclass_of": [
+      "Q235729"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q883801": {
+    "label": "M\u00e4nnerbund",
+    "description": "club of men",
+    "instance_of": null,
+    "subclass_of": [
+      "Q988108",
+      "Q104776793"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q41863069": {
+    "label": "war deity",
+    "description": "deity associated with war in mythology or polytheistic religion",
+    "instance_of": null,
+    "subclass_of": [
+      "Q178885"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q137773": {
+    "label": "ward of Japan",
+    "description": "subdivision of cities designated by government ordinance in Japan",
+    "instance_of": [
+      "Q28872924"
+    ],
+    "subclass_of": [
+      "Q1850442",
+      "Q13221722",
+      "Q4286337",
+      "Q29925520",
+      "Q35798"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q23983664": {
+    "label": "demographics of country or region",
+    "description": "set of demographics of a specific geographic region",
+    "instance_of": null,
+    "subclass_of": [
+      "Q2725376",
+      "Q74817647"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q79007": {
+    "label": "street",
+    "description": "public thoroughfare in a built environment like a village or city",
+    "instance_of": null,
+    "subclass_of": [
+      "Q376799",
+      "Q811979",
+      "Q34442"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q33532284": {
+    "label": "Wikimedia list of lists",
+    "description": "page of a Wikimedia project with a list of lists of something",
+    "instance_of": null,
+    "subclass_of": [
+      "Q13406463"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q17299750": {
+    "label": "snooker tournament",
+    "description": "large competition of snooker",
+    "instance_of": null,
+    "subclass_of": [
+      "Q500834",
+      "Q13406554"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q15640053": {
+    "label": "tram system",
+    "description": "system of railway tracks using tramcars to facilitate public transport",
+    "instance_of": null,
+    "subclass_of": [
+      "Q3491904",
+      "Q112796050",
+      "Q18325841"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q49776": {
+    "label": "strike",
+    "description": "work stoppage caused by the mass refusal of employees to work",
+    "instance_of": [
+      "Q113644093",
+      "Q32602941"
+    ],
+    "subclass_of": [
+      "Q5782934",
+      "Q273120",
+      "Q628191",
+      "Q17562059"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q15840617": {
+    "label": "planned national capital",
+    "description": "type of city which is planned to built as national capital",
+    "instance_of": [
+      "Q69883"
+    ],
+    "subclass_of": [
+      "Q108178728",
+      "Q1074523"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q18558301": {
+    "label": "college sports team",
+    "description": "sports team in a particular sport composed of collegiate players representing their college or university",
+    "instance_of": null,
+    "subclass_of": [
+      "Q12973014",
+      "Q1685451"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q188509": {
+    "label": "suburb",
+    "description": "human settlement that is part of or near to a larger city or town",
+    "instance_of": [
+      "Q15700808"
+    ],
+    "subclass_of": [
+      "Q486972",
+      "Q702492",
+      "Q123705",
+      "Q56061"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q1067887": {
+    "label": "demographics of Europe",
+    "description": "population, age, religion, etc., of Europe",
+    "instance_of": [
+      "Q23983664"
+    ],
+    "subclass_of": [
+      "Q5256120"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q12737077": {
+    "label": "occupation",
+    "description": "label applied to a person based on an activity they participate in",
+    "instance_of": [
+      "Q24017414",
+      "Q151885",
+      "Q122754124"
+    ],
+    "subclass_of": [
+      "Q1807498"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q979507": {
+    "label": "Hindu deity",
+    "description": null,
+    "instance_of": [
+      "Q23847174"
+    ],
+    "subclass_of": [
+      "Q178885"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q532": {
+    "label": "village",
+    "description": "small clustered human settlement smaller than a town",
+    "instance_of": [
+      "Q98966309"
+    ],
+    "subclass_of": [
+      "Q10354598"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q43229": {
+    "label": "organization",
+    "description": "social entity established to meet needs or pursue goals",
+    "instance_of": [
+      "Q131362181",
+      "Q17197366"
+    ],
+    "subclass_of": [
+      "Q106559804",
+      "Q106668099",
+      "Q1639378",
+      "Q854457",
+      "Q16334295"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q4498974": {
+    "label": "ice hockey team",
+    "description": "group of people that play ice hockey",
+    "instance_of": null,
+    "subclass_of": [
+      "Q12973014"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q134587884": {
+    "label": "town in Myanmar",
+    "description": null,
+    "instance_of": null,
+    "subclass_of": [
+      "Q877127",
+      "Q14757767"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q2154459": {
+    "label": "New England town",
+    "description": "basic unit of local government in each of the six New England federated states of the United States",
+    "instance_of": null,
+    "subclass_of": [
+      "Q15127012",
+      "Q1394476"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q99561527": {
+    "label": "demographics of the Kingdom of the Netherlands",
+    "description": "demographics of the kingdom",
+    "instance_of": [
+      "Q23983664"
+    ],
+    "subclass_of": [
+      "Q5256120"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q109324931": {
+    "label": "Q109324931",
+    "description": null,
+    "instance_of": null,
+    "subclass_of": [
+      "Q1666019",
+      "Q43229"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q3186692": {
+    "label": "calendar year",
+    "description": "begins on the New Year's Day of the given calendar system and ends on the day before the following New Year's Day",
+    "instance_of": [
+      "Q136721469"
+    ],
+    "subclass_of": [
+      "Q186081",
+      "Q577"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q56389217": {
+    "label": "current year",
+    "description": "year currently according to the time measurement",
+    "instance_of": null,
+    "subclass_of": [
+      "Q123095572",
+      "Q3186692"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q2353633": {
+    "label": "demographics of the European Union",
+    "description": "overview about the demographics of the European Union",
+    "instance_of": [
+      "Q23983664"
+    ],
+    "subclass_of": [
+      "Q1067887"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q3002150": {
+    "label": "aircraft crash",
+    "description": "accident involving an aircraft",
+    "instance_of": null,
+    "subclass_of": [
+      "Q744913",
+      "Q123349687",
+      "Q21152775",
+      "Q1931388"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q5060372": {
+    "label": "Central Asian cuisine",
+    "description": "regional cuisine",
+    "instance_of": [
+      "Q94951"
+    ],
+    "subclass_of": [
+      "Q728206"
+    ],
+    "last_updated": "2026-02-05T15:32:01.522243",
+    "first_seen_ingestion": "2026-02-05T15:29:40.422637"
+  },
+  "Q13406463": {
+    "label": "Wikimedia list article",
+    "description": "page of a Wikimedia project with a list of something",
+    "instance_of": [
+      "Q14204246"
+    ],
+    "subclass_of": [
+      "Q12139612",
+      "Q15138389",
+      "Q17442446"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q1651597": {
+    "label": "Indian religions",
+    "description": "religions that originated in the Indian subcontinent",
+    "instance_of": [
+      "Q6957341",
+      "Q110401222",
+      "Q9174"
+    ],
+    "subclass_of": [
+      "Q9174"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q7700500": {
+    "label": "tennis tour",
+    "description": "tennis played in tournament format at a series of venues over during a set period of weeks or months",
+    "instance_of": null,
+    "subclass_of": [
+      "Q27020041"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q608": {
+    "label": "human sexual behavior",
+    "description": "manner in which humans engage sexually",
+    "instance_of": [
+      "Q61788060"
+    ],
+    "subclass_of": [
+      "Q107289510",
+      "Q1190058",
+      "Q2431958",
+      "Q106803732"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q32090": {
+    "label": "lifestyle",
+    "description": "interests, opinions, behaviours, and behavioural orientations of an individual, group, or culture",
+    "instance_of": null,
+    "subclass_of": [
+      "Q3769299",
+      "Q24034076"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q12280": {
+    "label": "bridge",
+    "description": "structure that spans and provides a passage over a road, railway, river, or some other obstacle",
+    "instance_of": [
+      "Q136687862"
+    ],
+    "subclass_of": [
+      "Q83620",
+      "Q811979",
+      "Q2221906"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q2148678": {
+    "label": "sexual penetration",
+    "description": "sexual activity that involves inserting a person's body part into another person",
+    "instance_of": [
+      "Q608"
+    ],
+    "subclass_of": [
+      "Q1190058",
+      "Q137806372"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q19692233": {
+    "label": "Wikimedia list of persons",
+    "description": "Wikimedia list about persons",
+    "instance_of": null,
+    "subclass_of": [
+      "Q13406463"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q10648343": {
+    "label": "duo",
+    "description": "two individuals who work together",
+    "instance_of": [
+      "Q29431432",
+      "Q16334295"
+    ],
+    "subclass_of": [
+      "Q327245",
+      "Q16334295",
+      "Q2700595"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q624232": {
+    "label": "National Historic Landmark",
+    "description": "building, area, or object officially recognized by the US govt. for historical significance",
+    "instance_of": [
+      "Q30634609"
+    ],
+    "subclass_of": [
+      "Q19558910",
+      "Q45580643"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q2334789": {
+    "label": "Czech\u2013Slovak languages",
+    "description": "subgroup within the West Slavic languages",
+    "instance_of": [
+      "Q941501",
+      "Q215844"
+    ],
+    "subclass_of": [
+      "Q145852"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q188213": {
+    "label": "state religion",
+    "description": "religious body or creed officially endorsed by the state",
+    "instance_of": null,
+    "subclass_of": [
+      "Q9174"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q11266439": {
+    "label": "Wikimedia template",
+    "description": "type of page in the Wikimedia system. Use with P31 'instance of' for template pages",
+    "instance_of": null,
+    "subclass_of": [
+      "Q17442446",
+      "Q118555179"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q486972": {
+    "label": "human settlement",
+    "description": "place of any size, in which people permanently live",
+    "instance_of": [
+      "Q104086571"
+    ],
+    "subclass_of": [
+      "Q123964505",
+      "Q18247357",
+      "Q56061"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q18340514": {
+    "label": "events in a specific year or time period",
+    "description": "facts and events ranged in chronological order",
+    "instance_of": null,
+    "subclass_of": [
+      "Q17524420",
+      "Q185363"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q9174": {
+    "label": "religion",
+    "description": "social-cultural system",
+    "instance_of": [
+      "Q110401282",
+      "Q1914636",
+      "Q11862829",
+      "Q1047113",
+      "Q11042",
+      "Q82821"
+    ],
+    "subclass_of": [
+      "Q5390013",
+      "Q49447",
+      "Q136485030"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q30600878": {
+    "label": "copulation",
+    "description": "sexual union between male and female, involving the transfer of sperm",
+    "instance_of": [
+      "Q2996394"
+    ],
+    "subclass_of": [
+      "Q14865855"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q29469": {
+    "label": "generic top-level domain",
+    "description": "a top level domain without country association",
+    "instance_of": null,
+    "subclass_of": [
+      "Q14296"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q847017": {
+    "label": "sports club",
+    "description": "organization for the purpose of playing one or more sports",
+    "instance_of": null,
+    "subclass_of": [
+      "Q4438121",
+      "Q988108"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q33742": {
+    "label": "natural language",
+    "description": "language naturally spoken by humans, as opposed to \"constructed\" and \"formal\" languages",
+    "instance_of": [
+      "Q20829075",
+      "Q1047113",
+      "Q2267705"
+    ],
+    "subclass_of": [
+      "Q20162172"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q6957341": {
+    "label": "major religious group",
+    "description": "religious movement with major international spread",
+    "instance_of": [
+      "Q110401222"
+    ],
+    "subclass_of": [
+      "Q9174"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q476028": {
+    "label": "association football club",
+    "description": "sports club devoted to association football (soccer)",
+    "instance_of": null,
+    "subclass_of": [
+      "Q17270000",
+      "Q847017"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q11042": {
+    "label": "culture",
+    "description": "shared aspects of a society's way of life",
+    "instance_of": [
+      "Q151885"
+    ],
+    "subclass_of": [
+      "Q2515887"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q4350791": {
+    "label": "river crossing",
+    "description": "a means to get from one river bank to the other",
+    "instance_of": null,
+    "subclass_of": [
+      "Q12774177",
+      "Q62059481",
+      "Q7406919"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q5084": {
+    "label": "hamlet",
+    "description": "small settlement in a rural area",
+    "instance_of": [
+      "Q15617994",
+      "Q98966309"
+    ],
+    "subclass_of": [
+      "Q10354598",
+      "Q3055118",
+      "Q11939023",
+      "Q1497375",
+      "Q4632675"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q482994": {
+    "label": "album",
+    "description": "grouping of album releases by an artist usually released at the same time with the same title and tracks but in different formats for consumption (digital, CD, LP)",
+    "instance_of": [
+      "Q106043376"
+    ],
+    "subclass_of": [
+      "Q108346082"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q121631353": {
+    "label": "curling competition",
+    "description": "competition between curling teams",
+    "instance_of": null,
+    "subclass_of": [
+      "Q121631219"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q1068640": {
+    "label": "folk religion",
+    "description": "expressions of religion distinct from organized doctrines",
+    "instance_of": [
+      "Q110401222"
+    ],
+    "subclass_of": [
+      "Q9174",
+      "Q3742928"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q18729324": {
+    "label": "razyezd",
+    "description": "type of human settlement in Russia and Kazakhstan",
+    "instance_of": [
+      "Q15617994"
+    ],
+    "subclass_of": [
+      "Q10354598"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q1307276": {
+    "label": "single-family detached home",
+    "description": "free-standing residential building",
+    "instance_of": [
+      "Q3409269",
+      "Q784969"
+    ],
+    "subclass_of": [
+      "Q11755880",
+      "Q3947"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q46190676": {
+    "label": "tennis event",
+    "description": "individual event within a tennis tournament edition, such as Men's Singles",
+    "instance_of": null,
+    "subclass_of": [
+      "Q16510064",
+      "Q13219666"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q145852": {
+    "label": "West Slavic",
+    "description": "subdivision of the Slavic language group",
+    "instance_of": [
+      "Q25295"
+    ],
+    "subclass_of": [
+      "Q23526"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q1288568": {
+    "label": "modern language",
+    "description": "language in current use",
+    "instance_of": [
+      "Q20829075"
+    ],
+    "subclass_of": [
+      "Q20162172"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q17517379": {
+    "label": "animated short film",
+    "description": "short film, which is animated",
+    "instance_of": null,
+    "subclass_of": [
+      "Q202866",
+      "Q24862"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q16970": {
+    "label": "church building",
+    "description": "building for Christian worship",
+    "instance_of": [
+      "Q811102"
+    ],
+    "subclass_of": [
+      "Q24398318",
+      "Q44539",
+      "Q17350442"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q81639": {
+    "label": "exonym",
+    "description": "name used by a group of people to refer to another group, to another person, to another language, or to a geographical place outside their territory",
+    "instance_of": [
+      "Q134599141"
+    ],
+    "subclass_of": [
+      "Q82799"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q1254933": {
+    "label": "astronomical observatory",
+    "description": "location used for observing celestial events",
+    "instance_of": null,
+    "subclass_of": [
+      "Q62832"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q3775883": {
+    "label": "reciprocating motion",
+    "description": "repetitive up-and-down or back-and-forth linear motion",
+    "instance_of": null,
+    "subclass_of": [
+      "Q79782",
+      "Q2035846"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q50301185": {
+    "label": "tennis tour with multiple editions",
+    "description": null,
+    "instance_of": null,
+    "subclass_of": [
+      "Q7700500"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q18536800": {
+    "label": "mixed martial arts event",
+    "description": "type sports competition",
+    "instance_of": null,
+    "subclass_of": [
+      "Q13406554"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q22989102": {
+    "label": "Greek deity",
+    "description": "type or kind of deity belonging to the Greek mythological universe",
+    "instance_of": null,
+    "subclass_of": [
+      "Q178885",
+      "Q22988604"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q781549": {
+    "label": "megachurch",
+    "description": "Protestant house of worship with an average weekend attendance of 2000 or more people",
+    "instance_of": null,
+    "subclass_of": [
+      "Q16970",
+      "Q2638480"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  },
+  "Q1021645": {
+    "label": "office building",
+    "description": "building which contains spaces mainly designed to be used for offices",
+    "instance_of": [
+      "Q29028649",
+      "Q811102"
+    ],
+    "subclass_of": [
+      "Q41176"
+    ],
+    "last_updated": "2026-02-05T15:55:15.318304",
+    "first_seen_ingestion": "2026-02-05T15:51:43.822740"
+  }
+}

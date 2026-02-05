@@ -2,6 +2,7 @@ import json
 import time
 import uuid
 import requests
+import tqdm
 import pyarrow as pa
 import pyarrow.parquet as pq
 from datetime import datetime
@@ -30,6 +31,8 @@ def stream_events(batch_size=50, timeout=20):
         start_time = time.time()
 
         print("Connected to Wikipedia EventStream…")
+        
+        # can we use tqdm here
         
         for line in resp.iter_lines():
             if time.time() - start_time > timeout:

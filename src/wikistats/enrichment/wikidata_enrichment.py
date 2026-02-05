@@ -4,6 +4,8 @@ import pyarrow.parquet as pq
 from pathlib import Path
 from urllib.parse import quote
 import logging
+import json
+from datetime import datetime
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -126,8 +128,8 @@ def get_wikidata_classification(qid):
 
 def get_wikidata_labels_batch(qids, language="en", batch_size=50):
     """
-    Fetch labels for multiple Wikidata Q-IDs in batches.
-    Returns a dict mapping Q-ID to label (e.g., {'Q5': 'human', 'Q571': 'book'}).
+    Fetch enriched entity data for multiple Wikidata Q-IDs in batches.
+    Returns a dict mapping Q-ID to rich entity object with label, description, and classifications.
     
     Args:
         qids: List of Q-IDs (e.g., ['Q5', 'Q571'])
@@ -135,12 +137,12 @@ def get_wikidata_labels_batch(qids, language="en", batch_size=50):
         batch_size: Number of entities per API request (max 50)
     
     Returns:
-        Dict mapping Q-ID -> label
+        Dict mapping Q-ID -> {label, description, instance_of, subclass_of, last_updated}
     """
     if not qids:
         return {}
     
-    labels = {}
+    entities = {}
     unique_qids = list(set(qid for qid in qids if qid))  # Remove None and duplicates
     
     # Fetch in batches
@@ -152,7 +154,7 @@ def get_wikidata_labels_batch(qids, language="en", batch_size=50):
             "action": "wbgetentities",
             "ids": ids_str,
             "format": "json",
-            "props": "labels",
+            "props": "labels|descriptions|claims",
             "languages": language
         }
         
@@ -163,19 +165,49 @@ def get_wikidata_labels_batch(qids, language="en", batch_size=50):
             data = resp.json()
             
             for qid, entity in data.get("entities", {}).items():
+                # Extract label
                 label_data = entity.get("labels", {}).get(language)
-                if label_data:
-                    labels[qid] = label_data["value"]
-                else:
-                    # Fallback: use the Q-ID itself if no label found
-                    labels[qid] = qid
+                label = label_data["value"] if label_data else qid
+                
+                # Extract description
+                desc_data = entity.get("descriptions", {}).get(language)
+                description = desc_data["value"] if desc_data else None
+                
+                # Extract classifications
+                claims = entity.get("claims", {})
+                
+                def extract_qids(prop):
+                    """Extract Q-IDs from a Wikidata claim property."""
+                    if prop not in claims:
+                        return None
+                    values = []
+                    for claim in claims[prop]:
+                        mainsnak = claim.get("mainsnak", {})
+                        datavalue = mainsnak.get("datavalue", {})
+                        if datavalue.get("type") == "wikibase-entityid":
+                            values.append(datavalue["value"]["id"])
+                    return values if values else None
+                
+                entities[qid] = {
+                    "label": label,
+                    "description": description,
+                    "instance_of": extract_qids("P31"),
+                    "subclass_of": extract_qids("P279"),
+                    "last_updated": datetime.now().isoformat()
+                }
         except requests.RequestException as e:
-            print(f"Warning: Failed to fetch labels for batch {batch}: {e}")
-            # Fallback: map Q-IDs to themselves
+            logger.warning(f"Failed to fetch data for batch {batch}: {e}")
+            # Fallback: minimal entry
             for qid in batch:
-                labels[qid] = qid
+                entities[qid] = {
+                    "label": qid,
+                    "description": None,
+                    "instance_of": None,
+                    "subclass_of": None,
+                    "last_updated": datetime.now().isoformat()
+                }
     
-    return labels
+    return entities
 
 
 def enrich_article(title, wiki="enwiki", fetch_remote=True):
@@ -235,17 +267,125 @@ def enrich_article_cached(title, wiki="enwiki", fetch_remote=True):
     return result
 
 
-def enrich(files, fetch_remote=True, decode_qids=True):
+def merge_entity_data(existing_path, new_entities, ingestion_timestamp):
+    """
+    Merge new entity data with existing labels.json, preserving first_seen_ingestion dates.
+    
+    Args:
+        existing_path: Path to existing wikidata_labels.json
+        new_entities: Dict of new entity data from get_wikidata_labels_batch()
+        ingestion_timestamp: ISO timestamp of current ingestion
+    
+    Returns:
+        Merged entity dict
+    """
+    merged = {}
+    
+    # Load existing if present
+    if existing_path.exists():
+        with open(existing_path, 'r') as f:
+            merged = json.load(f)
+    
+    # Merge new entities
+    for qid, entity_data in new_entities.items():
+        if qid in merged:
+            # Update existing entity, preserve first_seen_ingestion
+            merged[qid].update(entity_data)
+        else:
+            # New entity, set first_seen_ingestion
+            entity_data["first_seen_ingestion"] = ingestion_timestamp
+            merged[qid] = entity_data
+    
+    return merged
+
+
+def generate_label_mappings(fetch_remote=True, base_dir=None):
+    """
+    Generate rich Q-ID entity data from all existing enriched parquet files.
+    Useful for regenerating the wikidata_labels.json after bulk enrichment.
+    
+    Args:
+        fetch_remote: Whether to fetch from Wikidata (default: True)
+        base_dir: Base directory of the project (default: automatically detected)
+    """
+    if base_dir is None:
+        # Try to use __file__ if available (when imported as module)
+        try:
+            base_dir = Path(__file__).resolve().parents[3]
+        except:
+            # Fallback: use current working directory
+            base_dir = Path.cwd()
+    else:
+        base_dir = Path(base_dir)
+    
+    enriched_dir = base_dir / "data" / "enriched"
+    
+    if not enriched_dir.exists():
+        print(f"No enriched directory found at {enriched_dir}")
+        return
+    
+    enriched_files = list(enriched_dir.glob("*_enriched.parquet"))
+    
+    if not enriched_files:
+        print(f"No enriched parquet files found in {enriched_dir}")
+        return
+    
+    print(f"Collecting Q-IDs from {len(enriched_files)} enriched files…")
+    
+    all_qids = set()
+    
+    for file_path in enriched_files:
+        print(f"Reading {file_path.name}…")
+        table = pq.read_table(file_path)
+        df = table.to_pandas()
+        
+        for _, row in df.iterrows():
+            instance_of_list = row.get("instance_of") if row.get("instance_of") is not None else []
+            subclass_of_list = row.get("subclass_of") if row.get("subclass_of") is not None else []
+            
+            # Handle both lists and lists stored as strings
+            if isinstance(instance_of_list, str):
+                instance_of_list = instance_of_list.strip("[]").split(",") if instance_of_list else []
+            if isinstance(subclass_of_list, str):
+                subclass_of_list = subclass_of_list.strip("[]").split(",") if subclass_of_list else []
+            
+            all_qids.update(instance_of_list)
+            all_qids.update(subclass_of_list)
+    
+    # Fetch enriched data for all unique Q-IDs
+    if fetch_remote:
+        print("\nFetching Wikidata entity data for all Q-IDs…")
+        all_qids = list(all_qids)
+        new_entities = get_wikidata_labels_batch(all_qids)
+        
+        # Merge with existing
+        labels_dir = base_dir / "data"
+        labels_dir.mkdir(parents=True, exist_ok=True)
+        labels_path = labels_dir / "wikidata_labels.json"
+        
+        ingestion_timestamp = datetime.now().isoformat()
+        merged = merge_entity_data(labels_path, new_entities, ingestion_timestamp)
+        
+        with open(labels_path, 'w') as f:
+            json.dump(merged, f, indent=2)
+        
+        print(f"Q-ID entity data written → {labels_path}")
+
+
+def enrich(files, fetch_remote=True):
     """
     Given a set of raw parquet file paths, enrich each with Wikidata information.
-    Writes enriched parquet files alongside the raw ones with '_enriched' suffix.
+    Writes enriched parquet files with Q-IDs intact.
+    Also updates wikidata_labels.json with rich entity data (label, description, classifications).
     
     Args:
         files: A set or list of Path objects pointing to raw parquet files
         fetch_remote: Whether to fetch from Wikidata (default: True)
-        decode_qids: Whether to decode Wikidata Q-IDs to human-readable labels (default: True)
     """
     print(f"Starting enrichment for {len(files)} files…")
+
+    all_qids = set()
+    ingestion_timestamp = datetime.now().isoformat()
 
     for file_path in files:
         print(f"\nReading {file_path}…")
@@ -253,10 +393,7 @@ def enrich(files, fetch_remote=True, decode_qids=True):
         df = table.to_pandas()
 
         enriched_rows = []
-        all_instance_of_qids = []
-        all_subclass_of_qids = []
 
-        # First pass: collect all Q-IDs for batch decoding
         for _, row in df.iterrows():
             title = row.get("title")
             wiki = row.get("wiki")
@@ -267,8 +404,8 @@ def enrich(files, fetch_remote=True, decode_qids=True):
             instance_of_list = wd.get("classification", {}).get("instance_of") or []
             subclass_of_list = wd.get("classification", {}).get("subclass_of") or []
             
-            all_instance_of_qids.extend(instance_of_list)
-            all_subclass_of_qids.extend(subclass_of_list)
+            all_qids.update(instance_of_list)
+            all_qids.update(subclass_of_list)
 
             enriched_rows.append({
                 **row.to_dict(),
@@ -276,19 +413,6 @@ def enrich(files, fetch_remote=True, decode_qids=True):
                 "instance_of": instance_of_list,
                 "subclass_of": subclass_of_list,
             })
-
-        # Batch decode Q-IDs to labels if requested
-        if decode_qids and fetch_remote:
-            print("Decoding Wikidata Q-IDs in batch...")
-            all_qids = list(set(all_instance_of_qids + all_subclass_of_qids))
-            qid_labels = get_wikidata_labels_batch(all_qids)
-            
-            # Replace Q-IDs with labels in enriched_rows
-            for row in enriched_rows:
-                if row["instance_of"]:
-                    row["instance_of"] = [qid_labels.get(qid, qid) for qid in row["instance_of"]]
-                if row["subclass_of"]:
-                    row["subclass_of"] = [qid_labels.get(qid, qid) for qid in row["subclass_of"]]
 
         # Convert back to Arrow
         enriched_table = pa.Table.from_pylist(enriched_rows)
@@ -302,5 +426,22 @@ def enrich(files, fetch_remote=True, decode_qids=True):
         pq.write_table(enriched_table, enriched_path)
 
         print(f"Enriched file written → {enriched_path}")
+
+    # After all files processed, fetch enriched entity data for all unique Q-IDs
+    if fetch_remote and all_qids:
+        print("\nFetching Wikidata entity data for all Q-IDs...")
+        new_entities = get_wikidata_labels_batch(list(all_qids))
+        
+        # Merge with existing labels
+        labels_dir = Path(__file__).resolve().parents[3] / "data"
+        labels_dir.mkdir(parents=True, exist_ok=True)
+        labels_path = labels_dir / "wikidata_labels.json"
+        
+        merged = merge_entity_data(labels_path, new_entities, ingestion_timestamp)
+        
+        with open(labels_path, 'w') as f:
+            json.dump(merged, f, indent=2)
+        
+        print(f"Q-ID entity data written → {labels_path}")
 
     print("\nEnrichment complete.")

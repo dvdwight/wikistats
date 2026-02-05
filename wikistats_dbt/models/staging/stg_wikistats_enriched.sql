@@ -1,5 +1,5 @@
 with raw as (
-  select * from read_parquet('../data/enriched/*_enriched.parquet')
+  select * from read_parquet('c:\git\wikistats\data\enriched\*_enriched.parquet', union_by_name = true)
 ),
 lang_region AS (
     SELECT * FROM {{ ref('seed_wiki_language_region') }}
@@ -10,9 +10,9 @@ cleaned as (
     title,
     wiki,
     wikidata_id, 
-    -- flatten lists into comma-separated strings 
-    array_to_string(instance_of, ',') as instance_of, 
-    array_to_string(subclass_of, ',') as subclass_of, 
+    -- keep as arrays for downstream unnesting
+    instance_of, 
+    subclass_of, 
     region,
     language,
     -- edit metadata 
