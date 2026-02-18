@@ -8,6 +8,9 @@ models:
         description: "Page title"
       - name: wiki
         description: "Wiki project code"
+        tests:
+          - unique
+          - not_null
       - name: wikidata_id
         description: "Wikidata entity ID"
       - name: instance_of
