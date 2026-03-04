@@ -1,6 +1,6 @@
 # WikiStats
 
-Exploratory project to collect data from the Wikipedia latest updates stream and visualise reference between new and previously seen entities
+Exploratory project to collect, enrich, and visualize the Wikipedia 'recent changes' stream using DuckDB and dbt
 
 ## Overview
 
