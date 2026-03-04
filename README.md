@@ -1,6 +1,6 @@
 # WikiStats
 
-A data warehouse and analytics platform for Wikipedia relationship data with enrichment from Wikidata.
+Exploratory project to collect data from the Wikipedia latest updates stream and visualise reference between new and previously seen entities
 
 ## Overview
 
